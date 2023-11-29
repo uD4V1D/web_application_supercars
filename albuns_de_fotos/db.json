@@ -1,0 +1,16 @@
+{
+  "lamborghini": [
+    {
+      "id": 1,
+      "Modelo": "Aventador",
+      "title": "Lambo Album",
+      "author": "Lamborghini italia"
+    },
+    {
+      "id": 2,
+      "Modelo": "Huracán",
+      "title": "Lambo Album",
+      "author": "Lamborghini italia"
+    }
+  ]
+}

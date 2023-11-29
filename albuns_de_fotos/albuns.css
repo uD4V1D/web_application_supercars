@@ -1,0 +1,100 @@
+/* Estilos base */
+body, html {
+    margin: 0;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #1a1a1b;
+}
+
+header {
+    background-color: #1a1919;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+header a {
+    color: white;
+}
+
+#logo {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Estilos para o contêiner de cards */
+.card-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    max-width: 1000px; /* Largura máxima do contêiner */
+}
+
+/* Estilos para cada card individual */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: auto;
+}
+
+/* Estilos para a imagem dentro do card */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Botão estilizado */
+.styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+    margin: 10px auto 0px auto;
+}
+
+/* Media query para telas menores */
+@media only screen and (max-width: 768px) {
+    /* Ajustes para telas menores */
+    .card-container {
+        flex-direction: column; /* Exibir os cards em coluna */
+        align-items: center; /* Alinhar os cards no centro */
+        max-width: 90%; /* Largura máxima ajustada */
+        margin: 20px auto; /* Margem ajustada */
+    }
+
+    /* Ajustes para os cards em telas menores */
+    .card {
+        width: 80%; /* Largura ajustada */
+        margin: 10px 0; /* Margem ajustada */
+    }
+}

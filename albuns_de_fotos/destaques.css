@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    height: auto;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #1a1a1b;
+}
+header {
+    background-color: #1a1919;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Estilos para os links */
+  nav a {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+header a{
+    color: white;
+}
+#logo{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+}

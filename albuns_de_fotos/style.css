@@ -1,0 +1,260 @@
+body, html {
+    margin: 0;
+    height: auto;
+    
+}
+h1:hover {
+    cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+}
+h1 {
+    margin: 50px auto 50px auto;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #1a1a1b;
+}
+header {
+    background-color: #1a1919;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Estilos para os links */
+  nav a {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+header a{
+    color: white;
+}
+#logo{
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.background {
+    background-image: url(img/cars/svj.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 1%;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #1a1a1b;
+}
+
+.content {
+    padding: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: auto;
+ 
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 2px;
+}
+
+.card-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    max-width: 330px ;
+    
+}
+
+.styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+    margin: 10px auto 0px auto;
+}
+
+.styled-button:hover {
+    background-color: #45a049;
+}
+#carouselExampleIndicators{
+    border-radius: 10px;
+    width: 1500px;
+    height: 600px;
+    margin: 25px auto 25px auto;
+    
+}
+.carousel-inner{
+    margin-bottom: 40px;
+    max-width: 100%;
+    height: 600px
+}
+
+.carousel-inner img {
+    width: 1500px;
+    height: 600px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .content {
+        padding: 50px;
+    }
+    
+    .card {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-container {
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+}
+
+
+/* Estilos para telas maiores */
+@media only screen and (min-width: 1200px) {
+    .card-container {
+        justify-content: space-between;
+    }
+}
+
+
+.maps{
+        max-width: 1200;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        padding: 30px; 
+    }
+    
+    .card {
+        width: 90%; 
+        margin: 10px auto; 
+        max-width: 300px; 
+    }
+    
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    .card-container {
+        margin: 20px auto; 
+    }
+    
+    #carouselExampleIndicators {
+        width: 90%;
+        margin: 50px auto 50px auto;
+    }
+    
+    .carousel-inner {
+        height: auto;
+    }
+    
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px; 
+    }
+    
+    .maps {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .card-container {
+        justify-content: space-between;
+        max-width: 1200px; 
+        margin: 50px auto; 
+    }
+    
+    #carouselExampleIndicators {
+        width: 100%;
+        max-width: 1500px;
+        margin-top: 100px;
+    }
+    
+    .carousel-inner img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+#destaques{
+    margin: 50px;
+}
+
+.arrow{
+    width: 100px;
+    float:initial;
+    margin-top: 700px;
+
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #1a1a1b;
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+}
+
+.footer-content{
+    margin: 10px auto 10px auto;
+    color: white;
+}
